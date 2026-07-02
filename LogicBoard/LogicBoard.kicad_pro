@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.3,
-          "height": 1.95,
-          "width": 1.95
+          "drill": 1.6,
+          "height": 2.4,
+          "width": 2.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|55500000|88680000|F.Cu|4|ac64dd64-82ae-4e7f-8204-8626db1aea74|63d2fd74-cdf5-4dde-a3c0-f2e5a56349aa",
+          "Connected via Resistor"
+        ],
+        [
+          "unconnected_items|89820000|70000000|F.Cu|4|ab1100a5-a4cd-40d5-894b-4db92286824b|0a1b627b-ec3b-469e-81e0-1d6911035eff",
+          "Cannot be shorted togheter"
+        ]
+      ],
       "meta": {
         "version": 2
       },
