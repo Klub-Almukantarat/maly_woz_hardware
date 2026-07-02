@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ASEAIG-40_000MHZ-C-S-T")(type "KiCad")(uri "/home/likusss/Downloads/Crystal osc/ASEAIG-40_000MHZ-C-S-T.kicad_sym")(options "")(descr ""))
+  (lib (name "ASEAIG-40.000MHZ-C-S-T")(type "Legacy")(uri "/home/likusss/Downloads/Crystal osc/ASEAIG-40.000MHZ-C-S-T.lib")(options "")(descr ""))
+  (lib (name "ECS-400-9-36B-CKY-TR")(type "KiCad")(uri "/home/likusss/Pictures/ECS-400-9-36B-CKY-TR/ECS-400-9-36B-CKY-TR.kicad_sym")(options "")(descr ""))
+)
