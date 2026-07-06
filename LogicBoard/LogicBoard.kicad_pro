@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|55500000|88680000|F.Cu|4|ac64dd64-82ae-4e7f-8204-8626db1aea74|63d2fd74-cdf5-4dde-a3c0-f2e5a56349aa",
-          "Connected via Resistor"
-        ],
-        [
           "unconnected_items|89820000|70000000|F.Cu|4|ab1100a5-a4cd-40d5-894b-4db92286824b|0a1b627b-ec3b-469e-81e0-1d6911035eff",
           "Cannot be shorted togheter"
         ]

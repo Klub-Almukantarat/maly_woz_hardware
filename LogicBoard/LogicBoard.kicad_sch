@@ -8151,12 +8151,6 @@
 		(uuid "1307b719-b628-4618-9717-a95179d8e44f")
 	)
 	(junction
-		(at 257.81 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1357d20b-70a3-4c1c-a8fc-b1badc9579ef")
-	)
-	(junction
 		(at 59.69 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8505,16 +8499,6 @@
 			(type dash)
 		)
 		(uuid "10bb30bd-6f4d-4a47-9f11-0366fc3dbeab")
-	)
-	(wire
-		(pts
-			(xy 254 39.37) (xy 257.81 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16c908cc-4cdc-4b3a-b133-c806d84428ae")
 	)
 	(wire
 		(pts
@@ -9088,7 +9072,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 39.37) (xy 264.16 39.37)
+			(xy 254 39.37) (xy 264.16 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9975,16 +9959,6 @@
 			(type default)
 		)
 		(uuid "c8936b5a-4e6b-4001-a63b-7d40af4588c1")
-	)
-	(wire
-		(pts
-			(xy 257.81 29.21) (xy 264.16 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8e202e6-c0de-47be-8156-b43375dc1494")
 	)
 	(polyline
 		(pts
@@ -12053,7 +12027,7 @@
 				)
 			)
 		)
-		(property "Value" "830033075"
+		(property "Value" "7I25000F18UCG"
 			(at 222.758 50.038 0)
 			(effects
 				(font
@@ -12775,7 +12749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b9d6961-c1ff-4777-bb00-0e0e8114f85b")
-		(property "Reference" "10k2"
+		(property "Reference" "R13"
 			(at 287.274 58.674 90)
 			(effects
 				(font
@@ -12783,7 +12757,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 287.02 55.88 90)
 			(do_not_autoplace yes)
 			(effects
@@ -12848,7 +12822,7 @@
 		(instances
 			(project "LogicBoard"
 				(path "/48fa907e-ad89-429b-bed4-a3e0e90622bf"
-					(reference "10k2")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14923,7 +14897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ECS-400-9-36B-CKY-TR"
+		(property "Value" "Q24FA20H00209"
 			(at 22.352 160.528 0)
 			(effects
 				(font
@@ -15050,7 +15024,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25pF"
+		(property "Value" "24pF"
 			(at 252.984 59.944 0)
 			(effects
 				(font
@@ -15460,95 +15434,6 @@
 			(project "LogicBoard"
 				(path "/48fa907e-ad89-429b-bed4-a3e0e90622bf"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:C")
-		(at 257.81 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "602ff346-0d4f-467e-867c-6d412ff7dd97")
-		(property "Reference" "C14"
-			(at 256.286 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 256.286 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 257.81 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 256.54 31.115 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 257.175 37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "32f5115b-a2a6-4f3e-a1a9-ce91b3ed5358")
-		)
-		(pin "1"
-			(uuid "f0e8e8d9-6075-4803-a6ee-6e4d74f4c3ef")
-		)
-		(instances
-			(project "LogicBoard"
-				(path "/48fa907e-ad89-429b-bed4-a3e0e90622bf"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -16501,7 +16386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25pF"
+		(property "Value" "24pF"
 			(at 202.184 75.184 0)
 			(effects
 				(font
@@ -16590,7 +16475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 365.76 33.02 0)
 			(effects
 				(font
@@ -17117,7 +17002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 359.156 32.258 0)
 			(effects
 				(font
@@ -18428,7 +18313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 382.27 33.02 0)
 			(effects
 				(font
