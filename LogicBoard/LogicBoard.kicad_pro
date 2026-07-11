@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.8,
-          "width": 1.15
+          "height": 1.75,
+          "width": 1.25
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|102600000|107500000|F.Cu|4|fd0d3b4e-1151-43f5-9d49-e4c9c6ac5faa|f6f5e38e-2f19-4a26-9547-d520501af05e",
+          "Bridged via resistor"
+        ],
+        [
+          "unconnected_items|105900000|99500000|F.Cu|4|e114058e-7533-4ab4-88df-7c8e057e4d08|9cc9fd42-245d-4fb5-a61b-294a849202ce",
+          "Bridged via resistor"
+        ],
+        [
+          "unconnected_items|106900000|94500000|F.Cu|4|04a36c87-eb7d-4ec9-a55f-69cb710a355a|dee60d51-d704-42c2-b07f-66f0f08768a9",
+          "Bridged via resistor"
+        ],
+        [
+          "unconnected_items|139000000|118500000|F.Cu|4|a02b69d3-496b-4d78-9c65-ad1046113aac|7bfc3dc6-67a5-49fb-9840-1cd5fa12ebd8",
+          "switch"
+        ],
+        [
+          "unconnected_items|54900000|77300000|F.Cu|4|9a7e846d-5cff-4727-aa1b-d23bfea11ece|f37e22e2-d7f9-44b5-a3ee-723978d89edc",
+          "Switch"
+        ],
+        [
+          "unconnected_items|55000000|63425000|F.Cu|4|afbabdb1-6a20-46b3-a552-acae0ca18058|c49de073-d551-4d79-a6a5-a9258bf309f9",
+          "Bridged via FB"
+        ],
+        [
+          "unconnected_items|60500000|132900000|F.Cu|4|676fef1c-46fb-43b5-bc17-f14818c05b76|84aea22e-69c9-40d2-8097-cf023867accd",
+          "Switch"
+        ]
+      ],
       "meta": {
         "version": 2
       },
